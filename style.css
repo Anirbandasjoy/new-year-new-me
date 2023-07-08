@@ -100,11 +100,14 @@
   justify-content: center;
   align-items: center;
 }
-
+.callContainer {
+  height: 400px;
+}
 .call {
   max-width: 800px;
-  margin: auto;
   background-image: url("./images/gradient2.png"), url("./images/watch.png");
+  margin: auto;
+  margin-top: 4rem;
 }
 .call .text {
   padding: 3rem;
@@ -127,4 +130,61 @@
 .call button:hover {
   background-color: rgb(69, 68, 68);
   color: rgb(145, 131, 131);
+}
+.footerContainer {
+  background-color: black;
+  padding: 6rem;
+}
+.footerAlltext {
+  max-width: 800px;
+  margin: auto;
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+}
+.footerAlltext h1,
+p {
+  margin-bottom: 1rem;
+}
+.footerAlltext p {
+  font-size: 14px;
+}
+.footerAlltext input {
+  display: block;
+  margin-bottom: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: black;
+  border: 1px solid wheat;
+}
+.footerAlltext button {
+  border-radius: 5px;
+  background-color: white;
+  color: #e8a8a8;
+  padding: 9px 24px;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+.footerAlltext button:hover {
+  background-color: red;
+  color: rgb(55, 54, 54);
+  cursor: pointer;
+}
+.footerAlltext .socialIcons {
+  display: flex;
+}
+.footerAlltext .socialIcons li {
+  list-style-type: none;
+  padding-right: 0.5rem;
+  display: inline-block;
+}
+
+.footerAlltext .socialIcons li a {
+  text-decoration: none;
+  color: #ffffff;
+  margin-right: 1rem;
+  font-size: 20px;
 }
