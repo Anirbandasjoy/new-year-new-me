@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Work Sans", sans-serif;
+}
+
+.banner {
+  height: 600px;
+  background-image: url("./images/banner/banner1.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  padding: 40px;
+  text-align: center;
+  background-position: topt;
+}
+
+.banner-content {
+  max-width: 300px;
+  height: 50%;
+  margin: 0 auto;
+  margin-left: 70%;
+  margin-top: 10rem;
+  text-align: right;
+}
+
+.banner h1 {
+  font-size: 35px;
+  color: #333;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.banner p {
+  font-size: 10px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.banner a.btn {
+  display: inline-block;
+  border-radius: 5px;
+  background: #f15b22;
+  color: #fff;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.banner a.btn:hover {
+  background-color: #0056b3;
+}
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+.aboutText {
+  max-width: 300px;
+}
+.aboutText h1 {
+  margin-bottom: 1rem;
+  font-size: 30 px;
+}
+.aboutText p {
+  font-size: 14px;
+  margin-bottom: 1rem;
+  color: rgb(9, 9, 9);
+}
+.about .aboutImage img {
+  width: 350px;
+}
+.aboutText ul li {
+  font-size: 12px;
+  list-style-type: none;
+  margin-top: 5px;
+}
+.aboutText ul li i {
+  margin-right: 6px;
+  font-size: 15px;
+  color: rgb(110, 181, 223);
+}
+.myPlans {
+  max-width: 800px;
+  text-align: center;
+  margin: auto;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.myPlans h1 {
+  margin-bottom: 2rem;
+}
+.plansItemContainer {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.call {
+  max-width: 800px;
+  margin: auto;
+  background-image: url("./images/gradient2.png"), url("./images/watch.png");
+}
+.call .text {
+  padding: 3rem;
+  max-width: 300px;
+}
+.call .text h1 {
+  margin-bottom: 10px;
+  color: rgb(255, 255, 255);
+}
+.call button {
+  border-radius: 5px;
+  background-color: white;
+  color: #e8a8a8;
+  padding: 9px 24px;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+.call button:hover {
+  background-color: rgb(69, 68, 68);
+  color: rgb(145, 131, 131);
+}
